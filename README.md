@@ -68,3 +68,37 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+Add meals to a dynamically generated table
+
+  <table>
+  <tr>
+    <th>Meal</th>
+    <th>Amount</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+</table>
+
+3 columns
+
+first column for adding the meals (has own navbar for naving categories)
+each meal probably has a unique, minimum servings attribute that should be displayed. This is set at the database level where the ingredients are entered.
+
+
+second column for showing meal list (includes servings number and global servings number - include date specifier which calculates servings required?)
+
+third column shows the ingredient list (tag store cupboard items to put together so it's easy to check if they exist in the cupboard already)
+
+Once done, list goes to purgatory stage where use can delete what they already have befor punting out the final list.
+
+? When to add optional ingredients? At the meal level? Checkboxes?
